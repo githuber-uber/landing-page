@@ -1,0 +1,37 @@
+html {
+    background: url("../img/dre-erwin-HvP3TnxvgIg-unsplash-small.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 641px) {
+    html {
+        background: url("../img/dre-erwin-HvP3TnxvgIg-unsplash-medium.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 1921px) {
+    html {
+        background: url("../img/dre-erwin-HvP3TnxvgIg-unsplash-large.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 2401px) {
+    html {
+        background: url("../img/dre-erwin-HvP3TnxvgIg-unsplash-original.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
