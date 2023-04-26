@@ -35,3 +35,33 @@ html {
         background-size: cover;
     }
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color:hsl(160, 32%, 17%);
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 50px;
+    color: white;
+    font-size: large;
+    align-items: center;
+    color: aquamarine;
+}
+
+.logo {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: xx-large;
+    color: aquamarine;
+}
+
+body {
+    margin: 0
+}
