@@ -42,7 +42,7 @@ html {
     background-color:hsl(160, 32%, 17%);
     padding-left: 15%;
     padding-right: 15%;
-}
+} 
 
 ul {
     display: flex;
@@ -60,8 +60,51 @@ ul {
     padding-bottom: 16px;
     font-size: xx-large;
     color: aquamarine;
+    font-style: italic;
 }
 
 body {
     margin: 0
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 0.3%;
+    gap: 50px;
+    border: 5px double hsl(160, 32%, 15%);
+}
+
+.hero-title {
+    color: hsl(160, 32%, 15%);
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.hero-text {
+    color: hsl(160, 32%, 10%);
+    font-size: 35px;
+    font-style: italic;
+}
+
+.hero-img {
+    height: 20vw;
+    border-radius: 50%;
+}
+
+.hero-subcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hero-subcontainer button {
+    width: fit-content;
+    font-size: 20px;
+    background-color: hsl(160, 32%, 10%);
+    color: aquamarine;
+    font-style: italic;
+
 }
