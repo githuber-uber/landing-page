@@ -203,3 +203,41 @@ body {
     padding: 1%;
 
 }
+
+.section-4 {
+    border: 5px double hsl(160, 32%, 10%);
+    padding: 7% 15% 7% 15%;
+    background-color: hsla(160, 32%, 10%, 70%);
+}
+
+.action-container {
+    border: 5px double whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 1% 5% 1%;
+    border-radius: 10px;
+    background-color: hsla(160, 32%, 10%, 90%);
+
+}
+
+.action-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.action-text {
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.action-button {
+    font-size: 25px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    height: fit-content;
+    color: whitesmoke;
+    align-self: center;
+    padding: 5px 25px 5px 25px;
+}
