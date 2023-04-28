@@ -185,7 +185,6 @@ body {
     margin-left: 15%;
     margin-right: 15%;
     padding: 5%;
-    gap: 5px;
 }
 
 .by {
@@ -205,9 +204,13 @@ body {
 }
 
 .section-4 {
-    border: 5px double hsl(160, 32%, 10%);
-    padding: 7% 15% 7% 15%;
+    /* border: 5px double hsl(160, 32%, 10%); */
+    /* padding: 7% 15% 0 15%; */
     background-color: hsla(160, 32%, 10%, 70%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
 
 .action-container {
@@ -215,8 +218,12 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 5% 1% 5% 1%;
+    margin-left: 15%;
+    margin-right: 15%;
     border-radius: 10px;
     background-color: hsla(160, 32%, 10%, 90%);
+    margin-bottom: 7%;
+    margin-top: 7%;
 
 }
 
@@ -240,4 +247,19 @@ body {
     color: whitesmoke;
     align-self: center;
     padding: 5px 25px 5px 25px;
+}
+
+.credits {
+    background-color:hsl(160, 32%, 17%);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: whitesmoke;
+    
+}
+
+.credits a {
+    text-decoration: none;
+    color: aquamarine;
 }
